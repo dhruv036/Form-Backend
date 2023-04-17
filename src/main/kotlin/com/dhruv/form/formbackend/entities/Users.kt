@@ -20,7 +20,7 @@ data class Users(
     @Column(name = "countrycode", nullable = true)
     var countrycode:Int,
     @Column(name = "phone", unique = true, nullable = true)
-    var phone:BigInteger,
+    var phone:BigInteger?,
     @Column(name = "plan", nullable = false)
     var plan:Plan,
     @Column(name = "image", nullable = true)

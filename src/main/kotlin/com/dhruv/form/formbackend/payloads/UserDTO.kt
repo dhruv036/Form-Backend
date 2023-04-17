@@ -12,7 +12,7 @@ data class UserDTO (
     val lastname:String,
     val email:String,
     val countrycode:Int,
-    val phone: BigInteger,
+    val phone: BigInteger?,
     val plan: Plan,
     val image:String,
 ){

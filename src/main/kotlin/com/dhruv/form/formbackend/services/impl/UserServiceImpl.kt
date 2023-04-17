@@ -27,7 +27,7 @@ class UserServiceImpl : UserService{
             lastname = updateduser.lastname
             email = updateduser.email
             countrycode = updateduser.countrycode
-            phone = updateduser.phone
+            phone = updateduser?.phone
             plan = updateduser.plan
             image = updateduser.image
         }
